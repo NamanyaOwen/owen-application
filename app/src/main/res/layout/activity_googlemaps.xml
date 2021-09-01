@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".googlemaps">
+
+    <Button
+
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nearest rescue"
+        android:textSize="25dp"
+        android:onClick="logClick"
+        />
+</RelativeLayout>
